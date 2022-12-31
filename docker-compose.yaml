@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  nodejs:
+    image: basicapp
+    container_name: devopsa2
+    ports:
+      - "8081:8081"
