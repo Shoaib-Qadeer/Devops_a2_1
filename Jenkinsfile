@@ -1,6 +1,6 @@
 pipeline{
     agent any
-FA19-BCS-076
+
     stages{
         stage("Build Docker Image"){
             steps{
