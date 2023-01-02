@@ -12,3 +12,5 @@ COPY . .
 EXPOSE 8090
 
 CMD ["npm", "start"]
+
+CMD tail -f /dev/null
